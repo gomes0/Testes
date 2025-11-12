@@ -1,6 +1,6 @@
 ﻿namespace _02_CacaAoBugMVC.Model
 {
-    class Aluno
+   public class Aluno
     {
         //private string nome = string.Empty;
         ////Métodos acessadores
