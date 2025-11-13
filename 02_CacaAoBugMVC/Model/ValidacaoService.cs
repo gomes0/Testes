@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace _02_CacaAoBugMVC.Model
 {
-    class ValidacaoService
+    public class ValidaService
     {
         //padrão:
         //- mínimo de 3 caracteres
@@ -57,7 +57,6 @@ namespace _02_CacaAoBugMVC.Model
                     return true;
             }
             return false;
-
         }
     }
 }

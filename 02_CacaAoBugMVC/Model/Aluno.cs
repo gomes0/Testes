@@ -17,9 +17,10 @@
         //Declaração de propriedades
 
         public string Nome { get; set; } = string.Empty;
-        public string Nota1 { get; set; }
-        public string Nota2 { get; set; }
-        public string Nota3 { get; set; }
+        public double Nota1 { get; set; }
+        public double Nota2 { get; set; }
+        public double Nota3 { get; set; }
+        public double Media {  get; set; }
         public string Situacao { get; set; } = string.Empty;
     }
 }
